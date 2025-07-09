@@ -17,14 +17,9 @@
   </nav>
 </header>
 
-<section class="hero-bg text-center text-white py-20 max-w-4xl mx-auto rounded" style="background-image: url('images/hero-farmstand.jpg'); background-size: cover; background-position: center;">
-  <h2 class="text-5xl font-bold mb-6 drop-shadow">Country Boutique & Fresh Produce</h2>
-</section>
-
 <section id="about" class="max-w-5xl mx-auto text-center py-20">
   <h2 class="text-3xl font-bold mb-6 text-green-900">About Us</h2>
   <p class="mb-4">At Sweet Pea's Mercantile, we blend rustic charm with vibrant produce and boutique finds. From handmade gifts to the freshest local fruits and vegetables, our shop offers a little bit of everything to brighten your home and table.</p>
-  <p>Come see why our market is a beloved stop for locals and visitors alike!</p>
 </section>
 
 <section id="gallery" class="py-20 bg-green-50 max-w-6xl mx-auto">
@@ -105,6 +100,19 @@
   </div>
 </section>
 
+<section id="contact" class="max-w-5xl mx-auto text-center py-20">
+  <h2 class="text-3xl font-bold mb-6 text-green-900">Get in Touch</h2>
+  <form action="https://formsubmit.co/holm5@me.com" method="POST" class="grid gap-6 max-w-xl mx-auto mb-10">
+    <input type="hidden" name="_next" value="thank-you.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="name" placeholder="Name" class="border p-3 rounded" required>
+    <input type="email" name="email" placeholder="Email" class="border p-3 rounded" required>
+    <input type="tel" name="phone" placeholder="Phone" class="border p-3 rounded">
+    <textarea name="message" placeholder="Message" class="border p-3 rounded"></textarea>
+    <button type="submit" class="bg-green-900 text-white px-6 py-3 rounded hover:bg-green-800">Submit</button>
+  </form>
+</section>
+
 <footer class="bg-yellow-50 text-center p-8 mt-20 max-w-4xl mx-auto">
   <h4 class="text-2xl font-bold mb-4 text-green-900">Visit Us</h4>
   <p class="mb-2">23110 Southeast 436th Street, Enumclaw, WA, United States</p>
@@ -116,7 +124,6 @@
   <div class="mb-8">
     <iframe src="https://www.google.com/maps?q=23110+Southeast+436th+Street,+Enumclaw,+WA&output=embed" width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
   </div>
-  <p class="text-lg">&copy; 2025 Sweet Pea's Mercantile. All rights reserved.</p>
 </footer>
 </body>
 </html>
