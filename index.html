@@ -64,11 +64,13 @@
 
 <section id="contact" class="max-w-5xl mx-auto text-center py-20">
   <h2 class="text-3xl font-bold mb-6 text-green-900">Get in Touch</h2>
-  <form class="grid gap-6 max-w-xl mx-auto mb-10">
-    <input type="text" placeholder="Name" class="border p-3 rounded" required>
-    <input type="email" placeholder="Email" class="border p-3 rounded" required>
-    <input type="tel" placeholder="Phone" class="border p-3 rounded">
-    <textarea placeholder="Message" class="border p-3 rounded"></textarea>
+  <form action="https://formsubmit.co/holm5@me.com" method="POST" class="grid gap-6 max-w-xl mx-auto mb-10">
+    <input type="hidden" name="_next" value="https://sweetpeasmercantile.com/thank-you.html">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" name="name" placeholder="Name" class="border p-3 rounded" required>
+    <input type="email" name="email" placeholder="Email" class="border p-3 rounded" required>
+    <input type="tel" name="phone" placeholder="Phone" class="border p-3 rounded">
+    <textarea name="message" placeholder="Message" class="border p-3 rounded"></textarea>
     <button type="submit" class="bg-green-900 text-white px-6 py-3 rounded hover:bg-green-800">Submit</button>
   </form>
 </section>
